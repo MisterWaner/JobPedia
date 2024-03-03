@@ -20,7 +20,7 @@
                             <li class="mb-2"><strong>Salary:</strong> <?= formatSalary($lisgting->salary) ?></li>
                             <li class="mb-2">
                                 <strong>Location:</strong> <?= $lisgting->city ?>, <?= $lisgting->state ?>
-                                <span class="text-xs bg-blue-500 text-white rounded-full px-2 py-1 ml-2">Local</span>
+                                <!-- <span class="text-xs bg-blue-500 text-white rounded-full px-2 py-1 ml-2">Local</span> -->
                             </li>
                             <li class="mb-2">
                                 <strong>Tags:</strong> <?= $lisgting->tags ?>
